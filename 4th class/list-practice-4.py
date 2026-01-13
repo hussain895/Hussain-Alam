@@ -8,6 +8,15 @@ print(len(list))
 list2 = ['car' , 'bike']
 list.append(list2)
 print(list)
+
+
+
+
+
+
+
+
+
 list.insert(3 , "cat")
 print(list)
 list.reverse()

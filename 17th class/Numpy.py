@@ -1,4 +1,4 @@
-import numpy as np
+# import numpy as np
 # # rank 1 array
 
 # array = np.array([1,2,3])
@@ -81,20 +81,20 @@ import numpy as np
 
 # print("\n------------------------------------------------------------------------\n")
 
-# import numpy as np
+import numpy as np
 
-# # 10 rows, 7 columns, random temperatures between 25 and 50
-# temperature_random = 25 + (50 - 25) * np.random.randint(size=(10, 7))
+# 10 rows, 7 columns, random temperatures between 25 and 50
+temperature_random = 25 + (50 - 25) * np.random.randint(size=(10, 7))
 
-# print("Random Temperature Array (10x7):")
-# print(temperature_random)
+print("Random Temperature Array (10x7):")
+print(temperature_random)
 
-# # Average temperature
-# avg_temp = np.mean(temperature_random)
-# print("\nAverage Temperature:", avg_temp)
+# Average temperature
+avg_temp = np.mean(temperature_random)
+print("\nAverage Temperature:", avg_temp)
 
-# for i , avg in enumerate(avg_temp):
-#     print(f"city{i} : {avg}")
+for i , avg in enumerate(avg_temp):
+    print(f"city{i} : {avg}")
 
 # print("\n------------------------------------------------------------------------\n")
 
@@ -125,20 +125,20 @@ import numpy as np
 # calcl = np.exp(1000)
 # print(calcl)
 
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
-car =  np.array(['TESLA','MEHRAN','CULTAS','COROLLA','AUDI','BMW'])
-weight = np.array([1000,1597,3000,1789,2434,1423])
-color = np.array(['r','g','b','y','r','g'])
+# car =  np.array(['TESLA','MEHRAN','CULTAS','COROLLA','AUDI','BMW'])
+# weight = np.array([1000,1597,3000,1789,2434,1423])
+# color = np.array(['r','g','b','y','r','g'])
 
-plt.plot(car,weight)
-plt.show()
-size = np.array([20,30,50,35,40,25])
-plt.scatter(car,weight ,c=color ,s=size)
-plt.show()
+# plt.plot(car,weight)
+# plt.show()
+# size = np.array([20,30,50,35,40,25])
+# plt.scatter(car,weight ,c=color ,s=size)
+# plt.show()
 
-plt.bar(car,weight  , color=color)
-plt.show()
+# plt.bar(car,weight  , color=color)
+# plt.show()
 
 plt.hist(weight , color='green')
 plt.show()

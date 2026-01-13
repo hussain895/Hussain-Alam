@@ -1,7 +1,7 @@
-a = str(input("Enter Your Name : "))
+string = str(input("Enter Your Name : "))
 
 vowels = "aeiouAEIOU"
 
-for char in a:
+for char in string:
     if char in vowels:
         print(char)

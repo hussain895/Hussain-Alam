@@ -1,26 +1,26 @@
-# def quiz():
-#     score = 0
-#     print("Welcome to the Quiz!\n")
+def quiz():
+    score = 0
+    print("Welcome to the Quiz!\n")
 
-#     # Question 1
-#     answer1 = input("What is the capital of France? ").strip().lower()
-#     if answer1 == "paris":
-#         score += 1
+    # Question 1
+    answer1 = input("What is the capital of France? ").strip().lower()
+    if answer1 == "paris":
+        score += 1
 
-#     # Question 2
-#     answer2 = input("What is 5 + 7? ").strip()
-#     if answer2 == "12":
-#         score += 1
+    # Question 2
+    answer2 = input("What is 5 + 7? ").strip()
+    if answer2 == "12":
+        score += 1
 
-#     # Question 3
-#     answer3 = input("What color do you get when you mix red and white? ").strip().lower()
-#     if answer3 == "pink":
-#         score += 1
+    # Question 3
+    answer3 = input("What color do you get when you mix red and white? ").strip().lower()
+    if answer3 == "pink":
+        score += 1
 
-#     print(f"\nYour final score is {score} out of 3!")
+    print(f"\nYour final score is {score} out of 3!")
 
-# if __name__ == "__main__":
-#     quiz()
+if __name__ == "__main__":
+    quiz()
 
 
 import tkinter as tk
