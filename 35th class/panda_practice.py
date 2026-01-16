@@ -8,6 +8,7 @@ print()
 print("-----------------------------------------------------Access Only One Subject's Marks---------------------------------------------------------------")
 print()
 print(f"Science : " ,marks[1])
+print(f"Math : " , marks["Math"])
 print()
 
 print("--------------------------------------------------Find Sum And Average Of All Subject's Marks----------------------------------------------------")
